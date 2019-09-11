@@ -8,10 +8,60 @@
   .content{
     top: 0;
     background-color: transparent;
-    position:fixed;
+    position: relative;
     text-align: center;
     width: 100%;
+    overflow: scroll;
   }
-  h1{
+  .content h1{
+    
     color: white;
+    font-size: 20px;
+    padding: 60px;
+    size: 90%;
   }
+    .topnav .name{
+   	float:left;
+  	width: 55%;
+  	background-color: blue;
+  	text-align: left;
+  	text-decoration: none;
+   }
+  .topnav .contact{
+    float:left;
+    width: 10%;
+    background-color: blue;
+  }
+
+  .topnav .important_links{
+  	float:left;
+  	width: 15%;
+  	background-color: blue;
+  }
+
+   .topnav .portfolio{
+  	float:left;
+  	width: 10%;
+  	background-color: blue;
+  }
+  
+   .topnav .home{
+  	float:left;
+  	width: 10%;
+  	background-color: blue;
+
+  }
+
+  
+  a{
+  color: white;
+  }
+  
+  .topnav:hover {
+  background-color: white;
+  }
+  
+  h1{
+  padding-top: 10px;
+  }
+  
