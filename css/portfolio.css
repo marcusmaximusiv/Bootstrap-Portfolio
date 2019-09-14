@@ -1,7 +1,5 @@
- .row{
-    overflow: scroll;
-  }
-
-  .col{
-    overflow: scroll;
-  }
+.portfolio{
+  width: 965px;
+  background-color: white;
+  color: black;
+}

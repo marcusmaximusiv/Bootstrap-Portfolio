@@ -1,0 +1,13 @@
+.contact_info{
+    width: 960px;
+    background-color: white;
+    color: black;
+}
+.form{
+    width: 100%;
+    padding-top: 20px;
+}
+.form label{
+  width: 100%;
+  padding-top: 20px;
+}

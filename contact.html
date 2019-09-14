@@ -15,26 +15,39 @@
         Your browser does not support HTML5 video.
         </video>
         <div class="content">
-            <div class="topnav" id="myTopnav">
-            	<a href="" class="name">Mark Sterrenberg</a>
-                <a href="index.html" class="home">Home</a>
-                <a href="portfolio.html" class="portfolio">Portfolio</a>
-                <a href="important_links.html" class="important_links">Important Links</a>
-                <a href="contact.html" class="contact">Contact</a>
-              </div>
-              <h1>Contact Info</h1>
-              <div>	
-              	
-              	<div class="row">
-                <div class="col-sm-4">
-					<img src="" />
-                </div>
-                <div class="col-sm-8">
-                
-                </div>
-              	</div>
-              	
-              </div>
-    </div>
+                <section id="header">
+                    <nav id="navbar">
+                        <header><li><mark>Mark Sterrenberg</mark></li></header>
+                        <ul>
+                            <a href="index.html"><li>About Me</li></a>
+                            <a href="portfolio.html"><li>Portfolio</li></a>
+                            <a href="important_links.html"><li>Important Links</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                        </ul>
+                    </nav>
+                </section>   
+                <br>
+                <section id="body">
+                    <div class="contact_info">
+                         <form class="form">
+                                <label for="fname">Name:</label>
+                                <br>
+                                <input type="text" id="fname" name="fname" placeholder="please write your name">
+                                <br>
+                                <label for="email">Email:</label>
+                                <br>
+                                <input type="text" id="fname" name="fname" placeholder="please write your email">
+                                <br>
+                                <label for="message">Message:</label>
+                                <br>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        </form>
+                    </div>
+                </section>    
+                <section id="footer">
+                    <h2>&copy SMU Coding Bootcamp 2019</h2>
+                </section>
+        </div>
 </body>
 </html>

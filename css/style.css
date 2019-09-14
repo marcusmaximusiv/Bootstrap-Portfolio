@@ -1,9 +1,50 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
 #Background_Video {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+  }
+  .content .header .inside_header{
+    float:1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+  }
+  .content .header .navigation {
+    float:right;
+    height:100%;
+  }
+  .content .header .logo_container{
+    font-weight:800;
+  }
+  .content .header .navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+  }
+  .content .header .navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+  }
+  .content .navigation .inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+
   }
   .content{
     top: 0;
@@ -13,9 +54,10 @@
     width: 100%;
     overflow: scroll;
   }
+  
   .content h1{
     
-    color: white;
+    color: black;
     font-size: 20px;
     padding: 60px;
     size: 90%;
@@ -24,7 +66,7 @@
    	float:left;
   	width: 55%;
   	background-color: blue;
-  	text-align: left;
+  	text-align: middle;
   	text-decoration: none;
    }
   .topnav .contact{
@@ -55,6 +97,8 @@
   
   a{
   color: white;
+  float: left;
+  width: 25%;
   }
   
   .topnav:hover {
@@ -63,5 +107,46 @@
   
   h1{
   padding-top: 10px;
+  color: black;
   }
-  
+
+  #header{
+    grid-area: header;
+    background-color: black;
+    width: 100%;
+  }
+  #navbar{
+    float: right;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+  }
+  header{
+    float: left;
+    color: white;
+    font-weight: 200%;
+    width: 53.7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+  }
+  #body{
+    padding: 200px;
+  }
+  #footer{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: middle;
+    padding-top: 20px;
+  }
+  ul{
+    width: 40%;
+    float: right;
+    padding: 20px;
+  }
+  mark{
+    background-color:white;
+    padding:39px;
+  }
