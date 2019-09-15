@@ -58,9 +58,18 @@
   .content h1{
     
     color: black;
-    font-size: 20px;
-    padding: 60px;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     size: 90%;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .content h1:after{
+    content:' ';
+    display:block;
+    border:1px solid black;
   }
     .topnav .name{
    	float:left;
@@ -149,4 +158,22 @@
   mark{
     background-color:white;
     padding:39px;
+  }
+  .content #body .about_me{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: left;
+
+  }
+  .content #body p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .content #body .about_me .pic{
+    width: 150px;
+    float: left;
+    height: 150px;
+    padding-left:10px;
+    padding-right: 10px;
   }
